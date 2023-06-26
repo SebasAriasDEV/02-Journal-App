@@ -1,12 +1,13 @@
-import { MailOutline } from '@mui/icons-material';
-import { Button, Typography } from '@mui/material';
+
+import { Typography } from '@mui/material';
+import { JournalLayout } from '../layout/JournalLayout';
 
 export const JournalPage = () => {
   return (
-    <>
-      <Typography variant='h2'>Journal Page</Typography>
-      <MailOutline />
-      <Button variant='contained'>Hola Mundo </Button>
-    </>
+    <JournalLayout>
+      <Typography>
+        Non veniam dolor minim proident minim deserunt eu irure deserunt aute.
+      </Typography>
+    </JournalLayout>
   );
 };
